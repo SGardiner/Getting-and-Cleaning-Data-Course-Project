@@ -148,12 +148,14 @@ run_analysis <- function() {
         setcolorder(merge_sets_avg,c(1,ncol(merge_sets_avg),2:(ncol(merge_sets_avg)-1)))
         ## Note: verify with head(names(merge_sets_avg)) and head(select(merge_sets_avg,1:5))
         
+        ## Copy dataset for uploading
+        merge_sets_tidy <- merge_sets_avg
         ## End of 5) Create a second, tidy data set with average for each activity and
         ## subject
         print("End of Part 5)")
-        print(head(select(merge_sets_avg, 1:5)))
+        print(head(select(merge_sets_tidy, 1:5)))
         
         ## Save tidy data set to a .txt file
-        write.table(merge_sets_avg, "~/rprogramming/GetCleanDataCourseProject/merge_sets_avg.txt", row.names = FALSE)
+        write.table(merge_sets_tidy, "~/rprogramming/GetCleanDataCourseProject/Getting-and-Cleaning-Data-Course-Project/merge_sets_tidy.txt", row.names = FALSE)
         
 }
