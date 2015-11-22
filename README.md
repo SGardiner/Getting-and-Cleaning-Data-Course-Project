@@ -37,7 +37,6 @@ Step 5) From the data set in step 4, creates a second, independent tidy data set
 * Create a directory for this project '~/rprogramming/GetCleanDataCourseProject/Getting-and-Cleaning-Data-Course-Project'
 * Download the script 'run_analysis.R' to 'Getting-and-Cleaning-Data-Course-Project'
 * Download the raw data from 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-  Your directory structure should look like this now (only shown 2 levels deep):
 * Unzipped data files should be under the '~/rprogramming/GetCleanDataCourseProject/Dataset' directory
 * Change working directory to   '~/rprogramming/GetCleanDataCourseProject/Getting-and-Cleaning-Data-Course-Project'
 * Run the following from the command line
