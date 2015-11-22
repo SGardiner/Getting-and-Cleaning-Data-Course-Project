@@ -116,19 +116,19 @@ For each record, the following was provided:
 
 Transformations and work performed to clean up the data
 1. Merge the training and test sets
-+ subject, activity levels and 561-feature measurements were combined
+- subject, activity levels and 561-feature measurements were combined
 
 2. Extract only the measurements on the mean and standard deviation
-+ only "mean" and "std" measurement columns were extracted, keeping only 79 out of the 561 measurement variables
+- only "mean" and "std" measurement columns were extracted, keeping only 79 out of the 561 measurement variables
 
 3. Give descriptive activity names to the activities in the data set
 
 4. Appropriately label the data set with descriptive variable names.
-* columns were renamed with corresponding measurement variable names containing "mean" and "std" that were provided with the dataset
+- columns were renamed with corresponding measurement variable names containing "mean" and "std" that were provided with the dataset
 
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
-* data was subsetted for each subject and each activity level
-* the mean (or average) was calculated for each measurement column and added into a new dataset - "merge_sets_tidy"
+- data was subsetted for each subject and each activity level
+- the mean (or average) was calculated for each measurement column and added into a new dataset - "merge_sets_tidy"
 
 
 
